@@ -1,0 +1,10 @@
+﻿离线自检：600519（窗口 2023-11-05 ~ 2026-11-05）
+  ✓ 本地缓存存在：600519 -> C:\Users\Administrator\Documents\deepseek-harness\default-workspace\a-share-pack\data
+  ✓ 窗口内数据充足：2023-11-05 ~ 2026-11-05，727 根
+  ✓ schema 校验通过：无问题
+  ✓ 日期升序无重复：727 行
+  ✓ 价格为正
+  ✓ 复权口径为 qfq：qfq
+  ✓ 交易日缺口 ≤ 5 天：缺口 0 天
+
+✓ 通过（7/7）
