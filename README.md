@@ -12,7 +12,7 @@ A股行情数据 Skill：拉取/增量更新日线（前复权 / 后复权 / 原
 ### 方式 A：git clone（推荐）
 
 ```bash
-git clone https://github.com/LINZIQI24GITHUB/a-share-data.git
+git clone https://github.com/LINZIQI24GITHUB/finansi-a-share-data.git
 ```
 
 把目录放到 Agent 的 skills 目录：
@@ -28,14 +28,14 @@ Windows 示例：
 
 ```powershell
 New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
-git clone https://github.com/LINZIQI24GITHUB/a-share-data.git "$HOME\.agents\skills\a-share-data"
+git clone https://github.com/LINZIQI24GITHUB/finansi-a-share-data.git "$HOME\.agents\skills\a-share-data"
 ```
 
 macOS / Linux 示例：
 
 ```bash
 mkdir -p ~/.agents/skills
-git clone https://github.com/LINZIQI24GITHUB/a-share-data.git ~/.agents/skills/a-share-data
+git clone https://github.com/LINZIQI24GITHUB/finansi-a-share-data.git ~/.agents/skills/a-share-data
 ```
 
 ### 方式 B：让 Agent 安装
@@ -43,7 +43,7 @@ git clone https://github.com/LINZIQI24GITHUB/a-share-data.git ~/.agents/skills/a
 把下面这句发给 Claude Code / Codex / Cursor：
 
 ```text
-Clone https://github.com/LINZIQI24GITHUB/a-share-data into your skills directory,
+Clone https://github.com/LINZIQI24GITHUB/finansi-a-share-data into your skills directory,
 install requirements.txt, then read SKILL.md and run the 600519 demo.
 ```
 
