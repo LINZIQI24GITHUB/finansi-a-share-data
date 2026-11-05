@@ -27,7 +27,15 @@ Cursor        ~/.cursor/skills/a-share-data/
 Windows 示例：
 
 ```powershell
+New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
 git clone https://github.com/LINZIQI24GITHUB/a-share-data.git "$HOME\.agents\skills\a-share-data"
+```
+
+macOS / Linux 示例：
+
+```bash
+mkdir -p ~/.agents/skills
+git clone https://github.com/LINZIQI24GITHUB/a-share-data.git ~/.agents/skills/a-share-data
 ```
 
 ### 方式 B：让 Agent 安装
