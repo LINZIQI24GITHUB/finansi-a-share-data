@@ -1,5 +1,5 @@
-﻿离线自检：600519（窗口 2023-11-05 ~ 2026-11-05）
-  ✓ 本地缓存存在：600519 -> C:\Users\Administrator\Documents\deepseek-harness\default-workspace\a-share-pack\data
+离线自检：600519（窗口 2023-11-05 ~ 2026-11-05）
+  ✓ 本地缓存存在：600519 -> <data-dir>/600519.parquet
   ✓ 窗口内数据充足：2023-11-05 ~ 2026-11-05，727 根
   ✓ schema 校验通过：无问题
   ✓ 日期升序无重复：727 行
